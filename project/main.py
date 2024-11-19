@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the trained model
-model = pickle.load(open(r'model_LogisticRegression.pkl','rb'))
+model = pickle.load(open(r'/workspaces/Heart-disease2/project/model_LogisticRegression.pkl','rb'))
 
 # Function to predict heart disease with a custom threshold
 def predict_heart_disease(features, threshold=0.17):
